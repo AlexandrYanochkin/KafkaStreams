@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaStreams.FirstTask", "KafkaStreams.FirstTask\KafkaStreams.FirstTask.csproj", "{2023B28C-D73B-4473-A135-A820B68E08CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaStreams.SecondTask", "KafkaStreams.SecondTask\KafkaStreams.SecondTask.csproj", "{A4B27DCE-1B61-4611-89C5-9624ADB7896C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaStreams.SecondTask.Tests", "KafkaStreams.SecondTask.Tests\KafkaStreams.SecondTask.Tests.csproj", "{34DF7532-B8D9-48F2-8CF2-59C9E2136943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaStreams.ThirdTask", "KafkaStreams.ThirdTask\KafkaStreams.ThirdTask.csproj", "{35ABB1A0-B460-4E3E-A8B8-77A8482F78E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaStreams.FourthTask", "KafkaStreams.FourthTask\KafkaStreams.FourthTask.csproj", "{BB3265DB-0BC3-4448-B17D-E78FD23503B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{12202C0F-B89F-4D63-953A-51E6B9C8181E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{9AE452EB-99CB-47DF-953C-D13A7802AEC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{CEAE6706-A660-4EE0-8F1C-3AB1686407B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{F9C17AE9-A443-4C6D-8EC8-619AF141E2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaStreams.FourthTask.Tests", "KafkaStreams.FourthTask.Tests\KafkaStreams.FourthTask.Tests.csproj", "{E0F88D94-EFFB-4FC5-82B3-6121C171589C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2023B28C-D73B-4473-A135-A820B68E08CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2023B28C-D73B-4473-A135-A820B68E08CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2023B28C-D73B-4473-A135-A820B68E08CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2023B28C-D73B-4473-A135-A820B68E08CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B27DCE-1B61-4611-89C5-9624ADB7896C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B27DCE-1B61-4611-89C5-9624ADB7896C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B27DCE-1B61-4611-89C5-9624ADB7896C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B27DCE-1B61-4611-89C5-9624ADB7896C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DF7532-B8D9-48F2-8CF2-59C9E2136943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DF7532-B8D9-48F2-8CF2-59C9E2136943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DF7532-B8D9-48F2-8CF2-59C9E2136943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DF7532-B8D9-48F2-8CF2-59C9E2136943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ABB1A0-B460-4E3E-A8B8-77A8482F78E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ABB1A0-B460-4E3E-A8B8-77A8482F78E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ABB1A0-B460-4E3E-A8B8-77A8482F78E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ABB1A0-B460-4E3E-A8B8-77A8482F78E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3265DB-0BC3-4448-B17D-E78FD23503B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3265DB-0BC3-4448-B17D-E78FD23503B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3265DB-0BC3-4448-B17D-E78FD23503B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3265DB-0BC3-4448-B17D-E78FD23503B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F88D94-EFFB-4FC5-82B3-6121C171589C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F88D94-EFFB-4FC5-82B3-6121C171589C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F88D94-EFFB-4FC5-82B3-6121C171589C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F88D94-EFFB-4FC5-82B3-6121C171589C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2023B28C-D73B-4473-A135-A820B68E08CA} = {12202C0F-B89F-4D63-953A-51E6B9C8181E}
+		{A4B27DCE-1B61-4611-89C5-9624ADB7896C} = {9AE452EB-99CB-47DF-953C-D13A7802AEC2}
+		{34DF7532-B8D9-48F2-8CF2-59C9E2136943} = {9AE452EB-99CB-47DF-953C-D13A7802AEC2}
+		{35ABB1A0-B460-4E3E-A8B8-77A8482F78E0} = {CEAE6706-A660-4EE0-8F1C-3AB1686407B3}
+		{BB3265DB-0BC3-4448-B17D-E78FD23503B9} = {F9C17AE9-A443-4C6D-8EC8-619AF141E2A6}
+		{E0F88D94-EFFB-4FC5-82B3-6121C171589C} = {F9C17AE9-A443-4C6D-8EC8-619AF141E2A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACDDA60D-077C-4116-B089-396C21D11FC1}
+	EndGlobalSection
+EndGlobal
